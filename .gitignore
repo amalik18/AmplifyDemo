@@ -37,3 +37,10 @@ amplify-build-config.json
 amplify-gradle-config.json
 amplifytools.xcconfig
 package-lock.json
+
+#src
+src/aws-exports.js
+
+#root
+package.json
+package-lock.json
