@@ -8,6 +8,7 @@
   margin-right: auto;
   height: 40vmin;
   pointer-events: none;
+  width: 50%;
 }
 
 @media (prefers-reduced-motion: no-preference) {

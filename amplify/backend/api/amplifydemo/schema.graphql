@@ -1,6 +1,12 @@
+type S3Object {
+  bucket: String!
+  region: String!
+  key: String!
+}
+
 type Note @model {
   id: ID!
   name: String!
   description: String
-  image: String
+  image: S3Object
 }
